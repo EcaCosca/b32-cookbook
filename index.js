@@ -13,3 +13,7 @@ const handleclickMac = () => {
 document.querySelector('#coffe-button').addEventListener('click', handleclickCoffee)
 document.querySelector('#frapu-button').addEventListener('click', handleclickFrap)
 document.querySelector('#mac-button').addEventListener('click', handleclickMac)
+
+const alerter = () => {
+    alert('HEY, YOU CANNOT DELETE!')
+}
